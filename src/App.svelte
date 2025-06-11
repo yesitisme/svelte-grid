@@ -8,7 +8,10 @@
     { label: "Email", key: "email" }
   ];
 
-  const apiEndpoint = "https://jsonplaceholder.typicode.com/users";
+  const apiEndpoint = "http://localhost:8000/api/users";
+  // Example API endpoint, replace with your actual endpoint
+  // const apiEndpoint = "https://jsonplaceholder.typicode.com/users";
+  // const apiEndpoint = "https://api.example.com/users";
   let theme = "tailwind"; // start with Tailwind
 </script>
 
